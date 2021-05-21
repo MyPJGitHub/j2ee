@@ -35,6 +35,7 @@ public class TestController {
     public ModelAndView selectAll(ModelAndView modelAndView){
         List<TestBean> testBeans = testService.selectAll();
         //model.addAttribute("testBeans" , testBeans);
+        //model.addAttribute("testBeans" , testBeans);
         modelAndView.addObject("testBeans" , testBeans);
         modelAndView.setViewName("list");
         return modelAndView;
