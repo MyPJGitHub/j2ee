@@ -38,6 +38,7 @@ public class TestController {
         //model.addAttribute("testBeans" , testBeans);
         modelAndView.addObject("testBeans" , testBeans);
         modelAndView.setViewName("list");
+        modelAndView.setViewName("list");
         return modelAndView;
     }
 }
